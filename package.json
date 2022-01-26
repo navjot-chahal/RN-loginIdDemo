@@ -1,0 +1,31 @@
+{
+  "name": "demo-rn-app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.3",
+    "@loginid/react-native-sdk": "^0.65.26",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "expo": "~43.0.2",
+    "expo-status-bar": "~1.1.0",
+    "react": "^17.0.2",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-dotenv": "^3.3.0",
+    "react-native-uuid": "^2.0.1",
+    "react-native-web": "0.17.1",
+    "react-router-native": "^6.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9"
+  },
+  "private": true
+}
